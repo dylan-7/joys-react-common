@@ -6,6 +6,6 @@ import moment from 'moment-timezone';
  * @example
  * ESTime('YYYY-MM-DD HH:mm:ss')
  */
-export const ESTime = (format: string = 'YYYY-MM-DD HH:mm:ss') => {
+export default function ESTime(format = 'YYYY-MM-DD HH:mm:ss'): String {
   return moment().tz('America/Caracas').format(format);
 };

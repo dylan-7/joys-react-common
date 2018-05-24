@@ -4,4 +4,4 @@
  * @example
  * ESTime('YYYY-MM-DD HH:mm:ss')
  */
-export declare const ESTime: (format?: string) => string;
+export default function ESTime(format?: string): String;

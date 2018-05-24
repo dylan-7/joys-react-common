@@ -7,7 +7,9 @@ var moment_timezone_1 = require("moment-timezone");
  * @example
  * ESTime('YYYY-MM-DD HH:mm:ss')
  */
-exports.ESTime = function (format) {
+function ESTime(format) {
     if (format === void 0) { format = 'YYYY-MM-DD HH:mm:ss'; }
     return moment_timezone_1.default().tz('America/Caracas').format(format);
-};
+}
+exports.default = ESTime;
+;
