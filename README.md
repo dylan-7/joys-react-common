@@ -1,10 +1,11 @@
-# joys-react-common
+# 🌟 joys-react-common
 
 ```
 npm i joys-react-common
 or
 yarn add joys-react-common
 ```
+### component lists:
 
 ```
 request, requestWrap
@@ -19,5 +20,8 @@ envTheme
 
 combination
 
-EDTtime
+ESTime
+
 ```
+
+🛑 EDTtime has been removed, please use ESTime.
