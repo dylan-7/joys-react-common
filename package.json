@@ -1,6 +1,6 @@
 {
   "name": "joys-react-common",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "description": "react common utils",
   "main": "./js/utils/index.js",
   "files": [
