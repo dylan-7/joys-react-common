@@ -4,4 +4,3 @@ export { default as Result, AjaxState } from './Result';
 export { default as envUtil } from './env.util';
 export { default as envTheme } from './env.theme';
 export { default as combination } from './combination';
-export { default as ESTime } from './ESTime';

@@ -15,5 +15,3 @@ var env_theme_1 = require("./env.theme");
 exports.envTheme = env_theme_1.default;
 var combination_1 = require("./combination");
 exports.combination = combination_1.default;
-var ESTime_1 = require("./ESTime");
-exports.ESTime = ESTime_1.default;
